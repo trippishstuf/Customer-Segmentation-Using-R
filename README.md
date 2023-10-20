@@ -1,4 +1,5 @@
 #Customer-Segmentation-Using-R
+
 Introduction:
 
 In this data analysis and customer segmentation project, we have a dataset from a company that sells products. The primary objective is to understand the dataset, perform data cleaning, and then use clustering techniques to segment customers based on their buying behavior. Customer segmentation can help the company tailor its marketing strategies, understand customer preferences, and improve overall business performance.
