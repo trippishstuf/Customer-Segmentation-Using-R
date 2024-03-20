@@ -23,3 +23,6 @@ Modules Used:
 8. **Customer Lifetime Value (CLV):** We calculate the Customer Lifetime Value for each customer, which provides insights into the long-term value of customers.
 
 Overall, these modules provide a comprehensive analysis of the dataset and offer insights that can guide marketing strategies and business decisions. The choice of techniques and modules used can be tailored to the specific goals of the company and the nature of the dataset.
+
+Report Link
+https://drive.google.com/file/d/1irrAhszVys2Pd9qgnMTQXNBHxx6mFzA_/view?usp=drivesdk
