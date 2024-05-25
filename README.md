@@ -10,6 +10,7 @@ This project focuses on analyzing customer behavior and revenue insights using a
 - [Modules Used](#modules-used)
 - [Visualizations](#visualizations)
 - [Contributing](#contributing)
+- [Data Set Link](#data-set-link)
 - [Report Link](#report-link)
 
 ## Modules Used
@@ -82,6 +83,9 @@ This project focuses on analyzing customer behavior and revenue insights using a
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate tests.
+
+## Data Set Link
+
 
 ## Report Link
 https://drive.google.com/file/d/1irrAhszVys2Pd9qgnMTQXNBHxx6mFzA_/view?usp=drivesdk
