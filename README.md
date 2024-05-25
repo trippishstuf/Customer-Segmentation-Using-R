@@ -1,5 +1,4 @@
-#Data Science
-#Customer-Segmentation-Using-R
+#Customer-Segmentation-
 Customer Behavior Analysis and
 Revenue Insights for a Retail Business
 
