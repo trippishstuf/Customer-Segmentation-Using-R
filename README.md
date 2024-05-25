@@ -1,30 +1,86 @@
-#Customer-Segmentation-
-Customer Behavior Analysis and
-Revenue Insights for a Retail Business
+# Customer Segmentation and Revenue Insights for a Retail Business
 
-Introduction:
+## Introduction
 
-In this data analysis and customer segmentation project, we have a dataset from a company that sells products. The primary objective is to understand the dataset, perform data cleaning, and then use clustering techniques to segment customers based on their buying behavior. Customer segmentation can help the company tailor its marketing strategies, understand customer preferences, and improve overall business performance.
+This project focuses on analyzing customer behavior and revenue insights using a dataset from a retail company. The primary objective is to understand the dataset, clean it, and employ clustering techniques to segment customers based on their buying behavior. Customer segmentation helps the company tailor its marketing strategies, understand customer preferences, and improve overall business performance.
 
-Modules Used:
+## Table of Contents
 
-1. **Data Cleaning (STEP 1):** In this module, we clean the dataset to ensure that it is ready for analysis. We handle missing values, identify and remove canceled invoices, and perform other data preprocessing tasks.
+- [Modules Used](#modules-used)
+- [Visualizations](#visualizations)
+- [Contributing](#contributing)
+- [Report Link](#report-link)
 
-2. **Feature Extraction (STEP 2):** This module involves extracting relevant features from the data that can be used for analysis. Features include date-related information, total price, and description length.
+## Modules Used
 
-3. **RFM Analysis (STEP 3):** Recency, Frequency, and Monetary (RFM) metrics are calculated for each customer. These metrics are used for customer segmentation and understanding customer behavior.
+1. **Data Cleaning (STEP 1):**
+   - Handle missing values
+   - Identify and remove canceled invoices
+   - Perform other data preprocessing tasks
 
-4. **Exploratory Data Analysis (EDA):** In this section, we explore the data to gain insights into customer behavior and sales patterns. We visualize revenue by country, revenue by month, revenue by day of the week, and identify the top customers by revenue.
+2. **Feature Extraction (STEP 2):**
+   - Extract date-related information
+   - Calculate total price
+   - Measure description length
 
-5. **Market Basket Analysis (Optional):** We perform market basket analysis to identify associations between products that are often purchased together. This can help in improving product recommendations and sales strategies.
+3. **RFM Analysis (STEP 3):**
+   - Calculate Recency, Frequency, and Monetary (RFM) metrics for each customer
+   - Use RFM metrics for customer segmentation and behavior analysis
 
-6. **Customer Segmentation (Clustering):** We use clustering techniques to segment customers based on their behavior, such as quantity and unit price. K-means clustering is used to group customers into distinct clusters.
+4. **Exploratory Data Analysis (EDA):**
+   - Visualize revenue by country, month, and day of the week
+   - Identify top customers by revenue
 
-7. **Outlier Detection (Optional):** We identify and remove outliers from the dataset to ensure that they do not unduly influence the analysis.
+5. **Market Basket Analysis (Optional):**
+   - Identify associations between products often purchased together
+   - Improve product recommendations and sales strategies
 
-8. **Customer Lifetime Value (CLV):** We calculate the Customer Lifetime Value for each customer, which provides insights into the long-term value of customers.
+6. **Customer Segmentation (Clustering):**
+   - Use K-means clustering to segment customers based on their behavior
+   - Group customers into distinct clusters
 
-Overall, these modules provide a comprehensive analysis of the dataset and offer insights that can guide marketing strategies and business decisions. The choice of techniques and modules used can be tailored to the specific goals of the company and the nature of the dataset.
+7. **Outlier Detection (Optional):**
+   - Identify and remove outliers from the dataset
 
-Report Link
+8. **Customer Lifetime Value (CLV):**
+   - Calculate Customer Lifetime Value for each customer
+   - Gain insights into the long-term value of customers
+
+## Visualizations
+
+1. **Scatter Plot for UnitPrice by Quantity:**
+   ![UnitPrice by Quantity](plots/scatter_plot_quantity_unitprice.png)
+
+2. **Line Plot for Revenue by InvoiceDate:**
+   ![Revenue by InvoiceDate](plots/line_plot_revenue_invoicedate.png)
+
+3. **Bar Plot of CLV by Customer:**
+   ![CLV by Customer](plots/bar_plot_clv_customer.png)
+
+4. **Scatter Plot for CLV vs. Average Order Value:**
+   ![CLV vs. Average Order Value](plots/scatter_plot_clv_avgorder.png)
+
+5. **Distribution of TotalPrice (After Removing Outliers):**
+   ![Distribution of Total Price](plots/hist_totalprice_after_outliers.png)
+
+6. **Revenue by Country:**
+   ![Revenue by Country](plots/bar_plot_revenue_country.png)
+
+7. **Revenue by Month:**
+   ![Revenue by Month](plots/bar_plot_revenue_month.png)
+
+8. **Revenue by Day of the Week:**
+   ![Revenue by Day of the Week](plots/bar_plot_revenue_dayofweek.png)
+
+9. **Top 10 Customers by Revenue:**
+   ![Top 10 Customers by Revenue](plots/bar_plot_top10_customers.png)
+
+10. **3D Scatter Plot of Clusters:**
+    ![3D Scatter Plot of Clusters](plots/3d_scatter_plot_clusters.png)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate tests.
+
+## Report Link
 https://drive.google.com/file/d/1irrAhszVys2Pd9qgnMTQXNBHxx6mFzA_/view?usp=drivesdk
