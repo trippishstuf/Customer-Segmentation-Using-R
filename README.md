@@ -52,7 +52,7 @@ This project focuses on analyzing customer behavior and revenue insights using a
 ## Visualizations
 
 1. **Scatter Plot for UnitPrice by Quantity:**
-   ![UnitPrice by Quantity](https://drive.google.com/file/d/1Ck95FfEnCyjgUk4vJ59b3FxaPh4TUzcC/view?usp=drive_link)
+   ![UnitPrice by Quantity](plots/scatter_plot_unitprice_quantity.png)
 
 2. **Line Plot for Revenue by InvoiceDate:**
    ![Revenue by InvoiceDate](plots/line_plot_revenue_invoicedate.png)
